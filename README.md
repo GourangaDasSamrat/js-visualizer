@@ -25,7 +25,7 @@ and Event Loop — all in real time, step by step.
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-v4-38bdf8?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
 [![GSAP](https://img.shields.io/badge/GSAP-3-88ce02?style=for-the-badge&logo=greensock&logoColor=black)](https://greensock.com/gsap/)
 
-<img src='./public/preview.png'></img>
+<img src='./src/assets/preview.png'></img>
 
 </div>
 

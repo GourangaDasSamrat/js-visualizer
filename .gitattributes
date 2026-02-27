@@ -1,0 +1,35 @@
+# Normalise all text files to LF on check-in
+* text=auto eol=lf
+
+# Source — always LF
+*.ts    text eol=lf
+*.tsx   text eol=lf
+*.js    text eol=lf
+*.jsx   text eol=lf
+*.json  text eol=lf
+*.md    text eol=lf
+*.css   text eol=lf
+*.html  text eol=lf
+*.sh    text eol=lf
+*.yaml  text eol=lf
+*.yml   text eol=lf
+*.toml  text eol=lf
+
+# Binary — never diff or merge
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.ico   binary
+*.woff  binary
+*.woff2 binary
+*.ttf   binary
+*.eot   binary
+*.wasm  binary
+*.mp4   binary
+*.webm  binary
+
+# GitHub Linguist
+dist/**           linguist-vendored
+node_modules/**   linguist-vendored
+pnpm-lock.yaml    linguist-generated
